@@ -1,0 +1,14 @@
+{
+  "project": "bowling_tracker",
+  "platform": "ios",
+  "github": {
+    "owner": "yhwong01",
+    "repo": "bowling_tracker"
+  },
+  "ios": {},
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "mobai": {}
+}
