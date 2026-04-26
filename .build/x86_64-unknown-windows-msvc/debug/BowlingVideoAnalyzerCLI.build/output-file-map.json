@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\primary.swiftdeps"
+  },
+  "C:\\bowling_app\\Sources\\BowlingVideoAnalyzerCLI\\main.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\main.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\main.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\main~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\main.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\main.dia"
+  }
+}

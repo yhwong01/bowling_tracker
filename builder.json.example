@@ -1,0 +1,13 @@
+{
+  "project": "BowlingApp",
+  "platform": "ios",
+  "github": {
+    "owner": "your-github-owner",
+    "repo": "your-github-repo"
+  },
+  "ios": {
+    "path": ".",
+    "scheme": "BowlingApp",
+    "signing": false
+  }
+}

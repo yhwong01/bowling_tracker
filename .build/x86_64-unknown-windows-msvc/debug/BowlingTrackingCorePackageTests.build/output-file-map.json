@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\primary.swiftdeps"
+  },
+  "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.derived\\runner.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\runner.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\runner.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\runner~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\runner.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\runner.dia"
+  }
+}

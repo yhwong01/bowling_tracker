@@ -1,0 +1,3 @@
+module BowlingTrackingCore {
+    header "C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\include\BowlingTrackingCore-Swift.h"
+}

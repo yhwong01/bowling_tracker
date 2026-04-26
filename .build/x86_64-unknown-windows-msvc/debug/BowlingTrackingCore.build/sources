@@ -1,0 +1,11 @@
+C:\bowling_app\Sources\BowlingTrackingCore\Models\ImageGeometry.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Models\LaneCalibration.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Models\LaneCoordinate.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Models\LaneGeometry.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Models\ShotMetrics.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Pipeline\TrackingPipeline.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Tracking\BallObservation.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Tracking\BallTrack.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Tracking\ShotMetricEstimator.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Video\ImportedVideo.swift
+C:\bowling_app\Sources\BowlingTrackingCore\Video\ImportedVideoAnalyzer.swift

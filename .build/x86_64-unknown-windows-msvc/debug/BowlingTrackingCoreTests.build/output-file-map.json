@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\primary.swiftdeps"
+  },
+  "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ImportedVideoAnalyzerTests.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests.dia"
+  },
+  "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ShotMetricEstimatorTests.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests.dia"
+  }
+}

@@ -1,0 +1,14 @@
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\BallObservation.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\BallTrack.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\BowlingTrackingCore.swiftmodule.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\ImageGeometry.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\ImportedVideo.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\ImportedVideoAnalyzer.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\LaneCalibration.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\LaneCoordinate.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\LaneGeometry.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\ShotMetricEstimator.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\ShotMetrics.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingTrackingCore.build\TrackingPipeline.swift.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingVideoAnalyzerCLI.build\BowlingVideoAnalyzerCLI.swiftmodule.o
+C:\bowling_app\.build\x86_64-unknown-windows-msvc\debug\BowlingVideoAnalyzerCLI.build\main.swift.o

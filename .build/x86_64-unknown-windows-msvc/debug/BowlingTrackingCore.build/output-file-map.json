@@ -1,0 +1,82 @@
+{
+  "": {
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\primary.swiftdeps"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ImageGeometry.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCalibration.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCoordinate.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneGeometry.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ShotMetrics.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Pipeline\\TrackingPipeline.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallObservation.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallTrack.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\ShotMetricEstimator.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideo.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo.dia"
+  },
+  "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideoAnalyzer.swift": {
+    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer.d",
+    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer.swift.o",
+    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer.swiftdeps",
+    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer.dia"
+  }
+}

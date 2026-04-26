@@ -1,0 +1,1340 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.xctest",
+      "packagePath" : "C:\\bowling_app",
+      "productName" : "BowlingTrackingCorePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "BowlingTrackingCorePackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.BowlingTrackingCore-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "fileList" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\sources",
+      "importPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ImageGeometry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCalibration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCoordinate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneGeometry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ShotMetrics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Pipeline\\TrackingPipeline.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallObservation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallTrack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\ShotMetricEstimator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideoAnalyzer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--77B84067B39EA7CC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BowlingTrackingCore",
+      "moduleOutputPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCore.swiftmodule",
+      "objects" : [
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\include\\BowlingTrackingCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "bowling_app"
+      ],
+      "outputFileMapPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ImageGeometry.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCalibration.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCoordinate.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneGeometry.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ShotMetrics.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Pipeline\\TrackingPipeline.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallObservation.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallTrack.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\ShotMetricEstimator.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideo.swift",
+        "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideoAnalyzer.swift"
+      ],
+      "tempsPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BowlingTrackingCorePackageDiscoveredTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "fileList" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\sources",
+      "importPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\BowlingTrackingCoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--77B84067B39EA7CC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BowlingTrackingCorePackageDiscoveredTests",
+      "moduleOutputPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCorePackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\include\\BowlingTrackingCorePackageDiscoveredTests-Swift.h",
+        "-sdk",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "bowling_app"
+      ],
+      "outputFileMapPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCorePackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\BowlingTrackingCoreTests.swift",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\all-discovered-tests.swift"
+      ],
+      "tempsPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BowlingTrackingCorePackageTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "fileList" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\sources",
+      "importPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.derived\\runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--77B84067B39EA7CC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCorePackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BowlingTrackingCorePackageTests",
+      "moduleOutputPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCorePackageTests.swiftmodule",
+      "objects" : [
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\include\\BowlingTrackingCorePackageTests-Swift.h",
+        "-sdk",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "bowling_app"
+      ],
+      "outputFileMapPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCorePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.derived\\runner.swift"
+      ],
+      "tempsPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BowlingTrackingCoreTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "fileList" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\sources",
+      "importPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ImportedVideoAnalyzerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ShotMetricEstimatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--77B84067B39EA7CC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BowlingTrackingCoreTests",
+      "moduleOutputPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCoreTests.swiftmodule",
+      "objects" : [
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests.swift.o",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "bowling_app"
+      ],
+      "outputFileMapPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ImportedVideoAnalyzerTests.swift",
+        "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ShotMetricEstimatorTests.swift"
+      ],
+      "tempsPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BowlingVideoAnalyzerCLI-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "fileList" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\sources",
+      "importPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingVideoAnalyzerCLI\\main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--77B84067B39EA7CC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "BowlingVideoAnalyzerCLI",
+      "moduleOutputPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingVideoAnalyzerCLI.swiftmodule",
+      "objects" : [
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "BowlingVideoAnalyzerCLI_main",
+        "-static",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "bowling_app"
+      ],
+      "outputFileMapPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingVideoAnalyzerCLI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "C:\\bowling_app\\Sources\\BowlingVideoAnalyzerCLI\\main.swift"
+      ],
+      "tempsPath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "BowlingTrackingCore" : [
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "-module-name",
+      "BowlingTrackingCore",
+      "-package-name",
+      "bowling_app",
+      "-c",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ImageGeometry.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCalibration.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCoordinate.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneGeometry.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ShotMetrics.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Pipeline\\TrackingPipeline.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallObservation.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallTrack.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\ShotMetricEstimator.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideo.swift",
+      "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideoAnalyzer.swift",
+      "-I",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\include\\BowlingTrackingCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "bowling_app",
+      "-driver-use-frontend-path",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe"
+    ],
+    "BowlingTrackingCorePackageDiscoveredTests" : [
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "-module-name",
+      "BowlingTrackingCorePackageDiscoveredTests",
+      "-package-name",
+      "bowling_app",
+      "-c",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\BowlingTrackingCoreTests.swift",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\all-discovered-tests.swift",
+      "-I",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\include\\BowlingTrackingCorePackageDiscoveredTests-Swift.h",
+      "-sdk",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "bowling_app",
+      "-driver-use-frontend-path",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe"
+    ],
+    "BowlingTrackingCorePackageTests" : [
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "-module-name",
+      "BowlingTrackingCorePackageTests",
+      "-package-name",
+      "bowling_app",
+      "-c",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.derived\\runner.swift",
+      "-I",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\include\\BowlingTrackingCorePackageTests-Swift.h",
+      "-sdk",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "bowling_app",
+      "-driver-use-frontend-path",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe"
+    ],
+    "BowlingTrackingCoreTests" : [
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "-module-name",
+      "BowlingTrackingCoreTests",
+      "-package-name",
+      "bowling_app",
+      "-c",
+      "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ImportedVideoAnalyzerTests.swift",
+      "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ShotMetricEstimatorTests.swift",
+      "-I",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "bowling_app",
+      "-driver-use-frontend-path",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe"
+    ],
+    "BowlingVideoAnalyzerCLI" : [
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe",
+      "-module-name",
+      "BowlingVideoAnalyzerCLI",
+      "-package-name",
+      "bowling_app",
+      "-c",
+      "C:\\bowling_app\\Sources\\BowlingVideoAnalyzerCLI\\main.swift",
+      "-I",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\index\\store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "BowlingVideoAnalyzerCLI_main",
+      "-static",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\\\Developer\\\\SDKs\\\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\XCTest-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Platforms\\6.3.1\\Windows.platform\\Developer\\Library\\Testing-6.3.1\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "bowling_app",
+      "-driver-use-frontend-path",
+      "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe"
+    ]
+  },
+  "targetDependencyMap" : {
+    "BowlingTrackingCore" : [
+
+    ],
+    "BowlingTrackingCorePackageDiscoveredTests" : [
+      "BowlingTrackingCoreTests",
+      "BowlingTrackingCore"
+    ],
+    "BowlingTrackingCorePackageTests" : [
+      "BowlingTrackingCorePackageDiscoveredTests",
+      "BowlingTrackingCoreTests",
+      "BowlingTrackingCore"
+    ],
+    "BowlingTrackingCoreTests" : [
+      "BowlingTrackingCore"
+    ],
+    "BowlingVideoAnalyzerCLI" : [
+      "BowlingTrackingCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\BowlingTrackingCoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.derived\\runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\Modules\\BowlingTrackingCorePackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.derived\\runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ImageGeometry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCalibration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneCoordinate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\LaneGeometry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Models\\ShotMetrics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Pipeline\\TrackingPipeline.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallObservation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\BallTrack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Tracking\\ShotMetricEstimator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingTrackingCore\\Video\\ImportedVideoAnalyzer.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\sources"
+    },
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\BowlingTrackingCoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\sources"
+    },
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.derived\\runner.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\sources"
+    },
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.product\\Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BowlingTrackingCore.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCorePackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\BowlingTrackingCorePackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.build\\runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\BowlingTrackingCoreTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ImportedVideoAnalyzerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\ShotMetricEstimatorTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageTests.product\\Objects.LinkFileList"
+    },
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ImportedVideoAnalyzerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Tests\\BowlingTrackingCoreTests\\ShotMetricEstimatorTests.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCoreTests.build\\sources"
+    },
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\Sources\\BowlingVideoAnalyzerCLI\\main.swift"
+        }
+      ],
+      "outputFilePath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\sources"
+    },
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.product\\Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallObservation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BallTrack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\BowlingTrackingCore.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImageGeometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ImportedVideoAnalyzer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCalibration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneCoordinate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\LaneGeometry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetricEstimator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\ShotMetrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCore.build\\TrackingPipeline.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\BowlingVideoAnalyzerCLI.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.build\\main.swift.o"
+        }
+      ],
+      "outputFilePath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingVideoAnalyzerCLI.product\\Objects.LinkFileList"
+    },
+    "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--77B84067B39EA7CC.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\Ernest\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.3.1+Asserts\\usr\\\\bin\\swiftc.exe"
+        }
+      ],
+      "outputFilePath" : "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\swift-version--77B84067B39EA7CC.txt"
+    }
+  }
+}
