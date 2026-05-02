@@ -1,19 +1,19 @@
 {
   "": {
-    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\primary.swiftdeps"
+    "swift-dependencies": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\primary.swiftdeps"
   },
-  "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\BowlingTrackingCoreTests.swift": {
-    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.d",
-    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.swift.o",
-    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests~partial.swiftmodule",
-    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.swiftdeps",
-    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.dia"
+  "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\BowlingTrackingCoreTests.swift": {
+    "dependencies": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.d",
+    "object": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.swift.o",
+    "swiftmodule": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.swiftdeps",
+    "diagnostics": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\BowlingTrackingCoreTests.dia"
   },
-  "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\all-discovered-tests.swift": {
-    "dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.d",
-    "object": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.swift.o",
-    "swiftmodule": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests~partial.swiftmodule",
-    "swift-dependencies": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.swiftdeps",
-    "diagnostics": "C:\\bowling_app\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.dia"
+  "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.derived\\all-discovered-tests.swift": {
+    "dependencies": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.d",
+    "object": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.swift.o",
+    "swiftmodule": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.swiftdeps",
+    "diagnostics": "C:\\bowling_tracker\\.build\\x86_64-unknown-windows-msvc\\debug\\BowlingTrackingCorePackageDiscoveredTests.build\\all-discovered-tests.dia"
   }
 }
