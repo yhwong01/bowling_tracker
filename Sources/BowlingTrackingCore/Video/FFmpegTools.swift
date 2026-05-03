@@ -152,6 +152,7 @@ public struct ProcessResult {
 
 public enum ProcessRunner {
     public static func run(path: String, arguments: [String]) throws -> ProcessResult {
+        #if os(macOS)
         let process = Process()
         guard let resolvedPath = resolveExecutable(path) else {
             throw VideoAnalysisError.missingExternalTool(path)
@@ -179,9 +180,13 @@ public enum ProcessRunner {
         let errorOutput = String(data: errorData, encoding: .utf8) ?? ""
 
         return ProcessResult(exitCode: process.terminationStatus, standardOutput: output, errorOutput: errorOutput)
+        #else
+        throw VideoAnalysisError.missingExternalTool(path)
+        #endif
     }
 
     private static func resolveExecutable(_ path: String) -> String? {
+        #if os(macOS)
         if path.contains("/") || path.contains("\\") {
             return FileManager.default.isExecutableFile(atPath: path) ? path : nil
         }
@@ -203,6 +208,7 @@ public enum ProcessRunner {
                 }
             }
         }
+        #endif
 
         return nil
     }
