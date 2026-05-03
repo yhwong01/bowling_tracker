@@ -40,7 +40,8 @@ public struct ShotMetricEstimator: Sendable {
             averageSpeedMph: estimateAverageSpeed(from: track),
             impactSpeedMph: estimateImpactSpeed(from: speeds),
             hookBoards: estimateHookBoards(entryBoard: entryBoard, breakpoint: breakpoint),
-            shotTimeSeconds: track.duration
+            shotTimeSeconds: track.duration,
+            confidenceFlags: []
         )
     }
 

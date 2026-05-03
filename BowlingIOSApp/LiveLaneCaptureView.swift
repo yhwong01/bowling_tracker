@@ -3,7 +3,7 @@ import SwiftUI
 import UIKit
 
 struct LiveLaneCaptureView: View {
-    @StateObject private var camera = CameraSessionController()
+    @ObservedObject var camera: CameraSessionController
 
     var body: some View {
         ZStack {
@@ -41,14 +41,8 @@ struct LiveLaneCaptureView: View {
                 )
             }
         }
-        .navigationTitle("Live Lane Capture")
+        .navigationTitle("Lane Alignment")
         .navigationBarTitleDisplayMode(.inline)
-        .task {
-            camera.start()
-        }
-        .onDisappear {
-            camera.stop()
-        }
     }
 
     private var captureHUD: some View {
@@ -69,7 +63,47 @@ struct LiveLaneCaptureView: View {
 
             coordinatePanel
                 .padding()
+
+            confirmationPanel
+                .padding(.horizontal)
+                .padding(.bottom, 24)
         }
+    }
+
+    private var confirmationPanel: some View {
+        VStack(spacing: 12) {
+            Picker("Dominant hand", selection: $camera.dominantHand) {
+                Text("Right").tag(BowlingTrackingCore.BowlingHand.right)
+                Text("Left").tag(BowlingTrackingCore.BowlingHand.left)
+            }
+            .pickerStyle(.segmented)
+
+            Button("Confirm Lane") {
+                camera.confirmLane()
+            }
+            .buttonStyle(.borderedProminent)
+            .disabled(!canConfirmLane)
+
+            if !canConfirmLane {
+                Text("Hold the phone still until the lane overlay is stable.")
+                    .font(.caption)
+                    .foregroundStyle(.white.opacity(0.7))
+            }
+        }
+        .padding(16)
+        .background(.black.opacity(0.55), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        .overlay {
+            RoundedRectangle(cornerRadius: 18, style: .continuous)
+                .stroke(.white.opacity(0.12))
+        }
+    }
+
+    private var canConfirmLane: Bool {
+        guard let lane = camera.detectedLane else {
+            return false
+        }
+
+        return lane.confidence >= 0.55
     }
 
     private var coordinatePanel: some View {

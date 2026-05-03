@@ -7,6 +7,9 @@ public enum VideoAnalysisError: Error, Equatable, CustomStringConvertible {
     case noFramesExtracted
     case noShotSegmentsDetected
     case trackTooShort(identifier: String)
+    case missingExternalTool(String)
+    case externalToolFailed(tool: String, message: String)
+    case missingTrackFile(identifier: String)
 
     public var description: String {
         switch self {
@@ -22,6 +25,12 @@ public enum VideoAnalysisError: Error, Equatable, CustomStringConvertible {
             return "No shot segments were detected for the imported video."
         case .trackTooShort(let identifier):
             return "The tracked ball path for shot '\(identifier)' is too short to compute metrics."
+        case .missingExternalTool(let tool):
+            return "Missing required external tool: \(tool)."
+        case .externalToolFailed(let tool, let message):
+            return "External tool '\(tool)' failed: \(message)"
+        case .missingTrackFile(let identifier):
+            return "No precomputed track was found for shot '\(identifier)'."
         }
     }
 }

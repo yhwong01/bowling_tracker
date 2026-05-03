@@ -7,6 +7,16 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
+                Section("Live Session") {
+                    NavigationLink("Start Live Session") {
+                        LiveSessionView()
+                    }
+
+                    NavigationLink("Shot History") {
+                        ShotHistoryView()
+                    }
+                }
+
                 Section("Project") {
                     Text("Bowling tracking app shell")
                     Text("The iPhone app target is now wired to BowlingTrackingCore.")

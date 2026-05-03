@@ -13,6 +13,7 @@ public struct ShotMetrics: Sendable, Equatable, Codable {
     public var impactSpeedMph: Double?
     public var hookBoards: Double?
     public var shotTimeSeconds: Double?
+    public var confidenceFlags: [ConfidenceFlag]
 
     public init(
         foulLineBoard: Double? = nil,
@@ -26,7 +27,8 @@ public struct ShotMetrics: Sendable, Equatable, Codable {
         averageSpeedMph: Double? = nil,
         impactSpeedMph: Double? = nil,
         hookBoards: Double? = nil,
-        shotTimeSeconds: Double? = nil
+        shotTimeSeconds: Double? = nil,
+        confidenceFlags: [ConfidenceFlag] = []
     ) {
         self.foulLineBoard = foulLineBoard
         self.arrowsBoard = arrowsBoard
@@ -40,5 +42,6 @@ public struct ShotMetrics: Sendable, Equatable, Codable {
         self.impactSpeedMph = impactSpeedMph
         self.hookBoards = hookBoards
         self.shotTimeSeconds = shotTimeSeconds
+        self.confidenceFlags = confidenceFlags
     }
 }

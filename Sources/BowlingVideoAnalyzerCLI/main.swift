@@ -13,6 +13,7 @@ struct MetricsEnvelope: Codable {
 enum CLIError: Error, CustomStringConvertible {
     case usage(String)
     case missingValue(String)
+    case missingCalibration
     case unsupportedCommand(String)
 
     var description: String {
@@ -21,6 +22,8 @@ enum CLIError: Error, CustomStringConvertible {
             return message
         case .missingValue(let flag):
             return "Missing value for \(flag)."
+        case .missingCalibration:
+            return "Missing calibration. Provide --calibration when creating the request or use create-calibration."
         case .unsupportedCommand(let command):
             return "Unsupported command: \(command)."
         }
@@ -45,8 +48,12 @@ struct CLI {
             printHelp()
         case "create-video-request":
             try createVideoRequest()
+        case "create-calibration":
+            try createCalibration()
         case "analyze-ball-track":
             try analyzeBallTrack()
+        case "analyze-video":
+            try analyzeVideo()
         default:
             throw CLIError.unsupportedCommand(arguments[1])
         }
@@ -60,11 +67,14 @@ struct CLI {
         let fps = Double(optionalValue(for: "--fps") ?? "60") ?? 60
         let trimStart = optionalValue(for: "--trim-start").flatMap(Double.init)
         let trimEnd = optionalValue(for: "--trim-end").flatMap(Double.init)
+        let calibrationPath = optionalValue(for: "--calibration")
+        let calibration: LaneCalibration? = try calibrationPath.map { try readJSON(from: $0) }
 
         let request = ImportedVideoAnalysisRequest(
             video: ImportedVideo(filePath: input),
             mode: mode,
             dominantHand: hand,
+            calibration: calibration,
             frameSamplingFPS: fps,
             trimStartSeconds: trimStart,
             trimEndSeconds: trimEnd
@@ -86,12 +96,81 @@ struct CLI {
         print("Wrote shot metrics to \(output)")
     }
 
+    private func createCalibration() throws {
+        let output = try requiredValue(for: "--output")
+        let imageWidth = try requiredDouble(for: "--image-width")
+        let imageHeight = try requiredDouble(for: "--image-height")
+        let hand = BowlingHand(rawValue: optionalValue(for: "--hand") ?? "right") ?? .right
+        let confidence = Double(optionalValue(for: "--confidence") ?? "0.9") ?? 0.9
+
+        let calibration = LaneCalibration(
+            imageSize: ImageSize(width: imageWidth, height: imageHeight),
+            laneCorners: LaneCorners(
+                foulLineLeft: ImagePoint(
+                    x: try requiredDouble(for: "--foul-left-x"),
+                    y: try requiredDouble(for: "--foul-left-y")
+                ),
+                foulLineRight: ImagePoint(
+                    x: try requiredDouble(for: "--foul-right-x"),
+                    y: try requiredDouble(for: "--foul-right-y")
+                ),
+                pinDeckLeft: ImagePoint(
+                    x: try requiredDouble(for: "--pin-left-x"),
+                    y: try requiredDouble(for: "--pin-left-y")
+                ),
+                pinDeckRight: ImagePoint(
+                    x: try requiredDouble(for: "--pin-right-x"),
+                    y: try requiredDouble(for: "--pin-right-y")
+                )
+            ),
+            dominantHand: hand,
+            confidence: confidence
+        )
+
+        try writeJSON(calibration, to: output)
+        print("Wrote lane calibration to \(output)")
+    }
+
+    private func analyzeVideo() throws {
+        let requestPath = try requiredValue(for: "--request")
+        let output = try requiredValue(for: "--output")
+        let trackDir = try requiredValue(for: "--track-dir")
+        let ffmpegPath = optionalValue(for: "--ffmpeg") ?? "ffmpeg"
+        let ffprobePath = optionalValue(for: "--ffprobe") ?? "ffprobe"
+        let framesDir = optionalValue(for: "--frames-dir")
+
+        let request: ImportedVideoAnalysisRequest = try readJSON(from: requestPath)
+
+        let analyzer = ImportedVideoAnalyzer(
+            metadataReader: FFmpegVideoMetadataReader(ffprobePath: ffprobePath),
+            frameExtractor: FFmpegFrameExtractor(
+                ffmpegPath: ffmpegPath,
+                outputDirectory: framesDir.map { URL(fileURLWithPath: $0) }
+            ),
+            shotSegmenter: ManualOrWholeVideoShotSegmenter(),
+            laneCalibrator: RequiredLaneCalibrator(),
+            ballTracker: PrecomputedBallTracker(trackDirectory: URL(fileURLWithPath: trackDir))
+        )
+
+        let result = try analyzer.analyze(request)
+        try writeJSON(result, to: output)
+        print("Wrote video analysis to \(output)")
+    }
+
     private func requiredValue(for flag: String) throws -> String {
         guard let value = optionalValue(for: flag) else {
             throw CLIError.missingValue(flag)
         }
 
         return value
+    }
+
+    private func requiredDouble(for flag: String) throws -> Double {
+        let value = try requiredValue(for: flag)
+        guard let number = Double(value) else {
+            throw CLIError.usage("Invalid numeric value for \(flag).")
+        }
+        return number
     }
 
     private func optionalValue(for flag: String) -> String? {
@@ -119,12 +198,28 @@ struct CLI {
         BowlingVideoAnalyzerCLI
 
         Commands:
-          create-video-request --input <videoPath> --output <request.json> [--mode singleShot|multiShotSession] [--hand left|right] [--fps 60] [--trim-start seconds] [--trim-end seconds]
-          analyze-ball-track --input <track.json> --output <metrics.json>
+                    create-video-request --input <videoPath> --output <request.json> [--mode singleShot|multiShotSession] [--hand left|right] [--fps 60] [--trim-start seconds] [--trim-end seconds] [--calibration calibration.json]
+                    create-calibration --output <calibration.json> --image-width <px> --image-height <px> --foul-left-x <px> --foul-left-y <px> --foul-right-x <px> --foul-right-y <px> --pin-left-x <px> --pin-left-y <px> --pin-right-x <px> --pin-right-y <px> [--hand left|right] [--confidence 0.9]
+                    analyze-ball-track --input <track.json> --output <metrics.json>
+                    analyze-video --request <request.json> --output <result.json> --track-dir <directory> [--ffmpeg path] [--ffprobe path] [--frames-dir directory]
           help
         """
 
         print(help)
+    }
+}
+
+private struct RequiredLaneCalibrator: VideoLaneCalibrating {
+    func calibration(
+        for frames: [VideoFrame],
+        request: ImportedVideoAnalysisRequest,
+        segment: VideoShotSegment
+    ) throws -> LaneCalibration {
+        if let calibration = request.calibration {
+            return calibration
+        }
+
+        throw CLIError.missingCalibration
     }
 }
 
